@@ -1,0 +1,52 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 600;
+    font-size: 600;
+    font-style: normal;
+    background-color: #3d313d;
+    color: white;
+    text-align: center;
+}
+
+header{
+    padding: 15px;
+    border-bottom: 3px solid #2a2525; 
+}
+.container{
+    padding: 20px;
+    text-align: center;
+    font-size: 700;
+    font-weight: 700;
+}
+
+.page-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.itens {
+    display: inline-table;
+    margin: 15px 30px;
+
+}
+
+.itens:hover {
+   transform: scale(1.1);
+   transition-duration: 0.5s;  
+}
+a {
+ text-decoration: none;
+}
+.poster {
+   border-radius: 8px;
+   border: solid rgba(51, 17, 17, 0.2);
+}
+.h2 {
+    color: white;
+}
